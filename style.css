@@ -1,0 +1,232 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .homepageall {
+        /* Just In Case */
+        max-width: 100%;
+        padding: #rem;
+    }
+    /* BEGIN Header */
+    
+    .homepageheader {
+        /* Entire Header */
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 2rem 0 0 0;
+        background-color: #5a5a5a;
+        color: white;
+    }
+    
+    .homepagetitle {
+        /* Header Title */
+        padding: 1.3rem 1.3rem 1rem 1rem;
+        font-size: 17px;
+    }
+    
+    .homepagelinkbar {
+        /* Link Bar */
+        display: flex;
+        justify-content: flex-start;
+        padding: 0.7rem 0.5rem;
+        list-style-type: none;
+        background-color: black;
+        width: auto;
+        position: relative;
+    }
+    
+    .homepagelinkbar a {
+        /* Links */
+        color: white;
+        font-size: 15px;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        background-color: #9e9e9e;
+        margin: 0 0 0 0.5rem;
+    }
+    
+    .homepageheader img {
+        /* Profile Image */
+        max-height: auto;
+        border-radius: 100%;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        width: 13rem;
+        border: 5px solid black;
+    }
+    /* END Header */
+    /* BEGIN Body */
+    
+    .homepagebody {
+        /* Main Body */
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .homepagebody h3 {
+        /* Title */
+        font: 40px black;
+        padding: 3rem 1rem 0.5rem 1rem;
+    }
+    
+    .homepagebody p {
+        /* Words */
+        font: 20px black;
+        padding: 0.5rem 2rem;
+    }
+    
+    #panda {
+        /* Panda Party! */
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 1rem;
+        border: 3px solid yellow;
+        width: 15rem;
+        background-color: lightgoldenrodyellow;
+        border-radius: 50%;
+    }
+    /* END Body */
+    /* BEGIN Footer */
+    
+    .homepagefooter {
+        /* Footer Container */
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 0.01rem 2rem;
+    }
+    
+    .sites {
+        /* Social Links */
+        padding: 0.5rem 0.5rem;
+        margin: 0.01rem 0.1rem;
+        font-size: 15px;
+        background-color: lightgray;
+        border-radius: 2rem;
+    }
+    
+    .sites img {
+        /* Social Link Icons */
+        width: 15px;
+    }
+    /* BEGIN "Projects" */
+    
+    .projectsbody h2 {
+        /* Projects Title */
+        font-size: 3rem;
+        margin: 2rem 1rem;
+    }
+    
+    .projectsbody h3 {
+        /* Project Name */
+        font-size: 2rem;
+        margin: 0.5rem 3rem;
+    }
+    
+    .projectscontainer {
+        /* Project Container */
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 0rem;
+    }
+    
+    .projectsimage img {
+        /* Project Image */
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .projectstext {
+        /* Project Description */
+        font-size: 20px;
+        margin: auto;
+        padding: 1rem 2rem;
+    }
+    
+    .projectlinks {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 15.4rem;
+        background-color: gray;
+        border-radius: 2rem;
+        margin: 0 2rem;
+    }
+    
+    .projectlinkleft a {
+        color: white;
+        padding: 0 1rem;
+    }
+    
+    hr {
+        width: auto;
+    }
+    
+    .projectlinkright a {
+        color: white;
+        padding: 0 1rem;
+    }
+    
+    .projectlinkleft a:hover {
+        background-color: darkslategray;
+        border-radius: 50rem 1rem 1rem 50rem;
+        width: auto;
+        padding: auto;
+    }
+    
+    .projectlinkright a:hover {
+        background-color: darkslategray;
+        border-radius: 1rem 50rem 50rem 1rem;
+        width: auto;
+        padding: auto;
+    }
+    /* END "Projects" */
+    /* BEGIN "Resume" */
+    
+    .resumebody {
+        margin: 2rem 3rem;
+    }
+    
+    .resumebody h3 {
+        font-size: 3rem;
+    }
+    
+    .resumedetails h4 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    .resumedetails {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .resumedetails div {
+        padding: 1rem;
+        font-size: 20px;
+    }
+    
+    .employment {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .employment h4 {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+    
+    .employmentdetails {
+        padding: 1rem 0;
+        background-color: rgb(241, 241, 241);
+    }
+    
+    .employmentdetails h5 {
+        font-size: 1.5rem;
+        background-color: lightgrey;
+    }
