@@ -1,4 +1,6 @@
-# Build a portfolio site
+# **This is an assigntment from my time in Momentum Learning boot camp. I am currently going back through it, improving it, and adapting new methods/code/tools/etc that have helped me along the way.**
+
+## "Build a portfolio site
 
 ## Directions
 
@@ -28,4 +30,4 @@ Your site does not have to have the same layout as these wireframes, but they ar
 
 ![desktop projects](desktop-projects.png)
 
-![desktop resumé](desktop-resume.png)
+![desktop resumé](desktop-resume.png)?"
