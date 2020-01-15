@@ -1,4 +1,4 @@
-# **This is an assigntment from my time in Momentum Learning boot camp. I am currently going back through it, improving it, and adapting new methods/code/tools/etc that have helped me along the way.**
+# **This was an assigntment from my time in Momentum Learning boot camp. I am currently going back through it, improving it, and adapting new methods/code/tools/etc that have helped me along the way.**
 
 ## "Build a portfolio site
 
